@@ -1,5 +1,6 @@
 # Gitlet
-Gitlet is an implementation of a version-control system. This version-control system mimics some of the basic features of the popular version-control system git. The supported functionalities are:
+My first large project built in Java. It is an implementation of a version-control system which is based on the project of CS61B, Berkeley's data structures class (See https://sp21.datastructur.es/materials/proj/proj2/proj2).
+This version-control system mimics some of the basic features of the popular version-control system git. The supported functionalities are:
 1. Saving the contents of entire directories of files. In Gitlet, this is called committing, and the saved contents themselves are called commits.
 2. Restoring a version of one or more files or entire commits. In Gitlet, this is called checking out those files or that commit.
 3. Viewing the history of your backups. In Gitlet, you view this history in something called the log.
