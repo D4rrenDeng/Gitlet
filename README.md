@@ -9,25 +9,25 @@ This version-control system mimics some of the basic features of the popular ver
 
 The main commands that the system supports are:
 Local commands:
-  init: java gitlet.Main init
-  add: java gitlet.Main add [file name]
-  commit: java gitlet.Main commit [message]
-  rm: java gitlet.Main rm [file name]
-  log: java gitlet.Main log
-  global-log: java gitlet.Main log
-  find: java gitlet.Main find [commit message]
-  status: java gitlet.Main status
-  checkout:
-    java gitlet.Main checkout -- [file name]
-    java gitlet.Main checkout [commit id] -- [file name]
-    java gitlet.Main checkout [branch name]
-  branch: java gitlet.Main branch [branch name]
-  rm-branch: java gitlet.Main rm-branch [branch name]
-  reset: java gitlet.Main reset [commit id]
-  merge: java gitlet.Main merge [branch name]
-Remote commands:
-  add-remote: java gitlet.Main add-remote [remote name] [name of remote directory]/.gitlet
-  rm-remote: java gitlet.Main rm-remote [remote name]
-  push: java gitlet.Main push [remote name] [remote branch name]
-  fetch: java gitlet.Main fetch [remote name] [remote branch name]
-  pull: java gitlet.Main pull [remote name] [remote branch name]
+  - init: java gitlet.Main init
+  - add: java gitlet.Main add [file name]
+  - commit: java gitlet.Main commit [message]
+  - rm: java gitlet.Main rm [file name]
+  - log: java gitlet.Main log
+  - global-log: java gitlet.Main log
+  - find: java gitlet.Main find [commit message]
+  - status: java gitlet.Main status
+  - checkout:
+    - java gitlet.Main checkout -- [file name]
+    - java gitlet.Main checkout [commit id] -- [file name]
+    - java gitlet.Main checkout [branch name]
+  - branch: java gitlet.Main branch [branch name]
+  - rm-branch: java gitlet.Main rm-branch [branch name]
+  - reset: java gitlet.Main reset [commit id]
+  - merge: java gitlet.Main merge [branch name]
+- Remote commands:
+  - add-remote: java gitlet.Main add-remote [remote name] [name of remote directory]/.gitlet
+  - rm-remote: java gitlet.Main rm-remote [remote name]
+  - push: java gitlet.Main push [remote name] [remote branch name]
+  - fetch: java gitlet.Main fetch [remote name] [remote branch name]
+  - pull: java gitlet.Main pull [remote name] [remote branch name]
